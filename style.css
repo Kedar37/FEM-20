@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    background-color: rgb(251, 246, 255);
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, h3{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 1rem;
+}
+
+
+.container{
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mockup{
+    width: 350px;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 2.7rem;
+    box-shadow: 0px 0px 15px 2px hsla(271, 36%, 24%, 0.288);
+}
+
+.screen{
+    border-radius: 2.3rem;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.top-wrap{
+    border-radius: 2.3rem 2.3rem 0.5rem 0.5rem;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.knotch{
+    width: 55%;
+    height: 22px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.user-info-wrap{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.profile-pic-name{
+    display: flex;
+    align-items: center;
+}
+
+.back-btn{
+    width: 7%;
+}
+
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 0.7rem;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.3rem 0;
+}
+
+.username{
+    color: white;
+    font-size: 1rem;
+}
+
+.status{
+    color: white;
+    opacity: 0.5;
+}
+
+.three-dots-menu{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-right: 0.5rem;
+}
+
+.dot{
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.chat-box{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+p{
+    font-size: 11px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.receiver > .msg-list > .msg{
+    margin-right: auto;
+    padding: 0.5rem 0.7rem;
+    background-color: hsla(270, 52%, 91%, 0.742);
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    color: hsl(281, 100%, 60%);
+    text-align: left;
+}
+
+.sender > .msg-list > .msg{
+    margin-left: auto;
+    padding: 0.5rem 0.7rem;
+    background-color: white;
+    border-radius: 1rem 1rem 0.5rem 1rem;
+    box-shadow: 0px 2px 5px 2px hsl(276, 5%, 79%);
+    color: hsl(271, 36%, 24%);
+    text-align: left;
+}
+
+.sender > .msg-list > .img-msg{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.sender > .msg-list > .img-msg > img{
+    width: 22%;
+    border-radius: 1rem;
+}
+
+.walk-msg{
+    margin-right: auto;
+    padding: 0.7rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    color: white;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.price{
+    margin-left: auto;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.type-msg{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input{
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+    font-size: 11px;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    padding: 0.5rem;
+    border-radius: 30px;
+    background-color: hsl(271, 36%, 24%);
+}
+
+.send-icon{
+    width: 100%;
+}
+
+article{
+    text-align: center;
+}
+
+.para{
+    font-size: 1.2rem;
+    color: hsl(271, 20%, 68%);
+
+}
+
+@media (min-width: 1000px) {
+
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mockup{
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    article{
+        width: 50%;
+        text-align: left;
+    }
+
+    .para{
+        width: 60%;
+    }
+}
